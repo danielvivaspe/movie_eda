@@ -40,10 +40,10 @@ def getMovieData(movie, df):
         return df
 
 
-if os.path.isfile(f'src/data/sliced_files/data_{file_num}_filled.csv'):
-    data = pd.read_csv(f'src/data/sliced_files/data_{file_num}_filled.csv', sep=',', index_col='tmdb_id')
+if os.path.isfile(f'data/sliced_files/data_{file_num}_filled.csv'):
+    data = pd.read_csv(f'data/sliced_files/data_{file_num}_filled.csv', sep=',', index_col='tmdb_id')
 else:
-    data = pd.read_csv(f'src/data/sliced_files/data_{file_num}.csv', sep=',', index_col='tmdb_id')
+    data = pd.read_csv(f'data/sliced_files/data_{file_num}.csv', sep=',', index_col='tmdb_id')
 
 count = 0
 
