@@ -32,6 +32,6 @@ Todos los datos han sido obtenidos de The Movie DataBase a través de su API. Co
 
 <br/><br/><br/>
 
-**Realizado por** Daniel Vivas
+**Realizado por** Daniel Vivas<br/>
 contacto@danielvivas.com
 
