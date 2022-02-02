@@ -12,7 +12,7 @@ Analizar la evolución de distintos datos sobre el hístorico de películas para
 ## Fuente
 ***
 
-![TMDB](presentation/img/tmdb.png)
+![TMDB](presentation/img/tmdb.png)<br/>
 Todos los datos han sido obtenidos de The Movie DataBase a través de su API. Contiene un histórico con datos de peliculas de más de 100 años. Más información en  [The movie Database API](https://developers.themoviedb.org/3/getting-started/introduction).
 <br/><br/>
 
