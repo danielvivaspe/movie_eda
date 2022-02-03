@@ -8,7 +8,7 @@ from phases import phase5
 
 st.set_page_config(page_title='MOVIE EDA', page_icon='./img/eda.png', layout='wide')
 
-image = Image.open('./img/eda.jpg')
+image = Image.open('presentation/img/eda.jpg')
 st.sidebar.image(image)
 
 st.sidebar.markdown("""
