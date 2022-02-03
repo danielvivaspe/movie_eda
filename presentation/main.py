@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 from phases import phase1
 from phases import phase2
 from phases import phase3
@@ -7,7 +8,8 @@ from phases import phase5
 
 st.set_page_config(page_title='MOVIE EDA', page_icon='./img/eda.png', layout='wide')
 
-st.sidebar.image('./img/eda.jpg')
+image = Image.open('../img/eda.jpg')
+st.sidebar.image(image)
 
 st.sidebar.markdown("""
                 ## <br/><div style="text-align: center">ANÁLISIS EXPLORATORIO CON HISTÓRICO DE PELÍCULAS</div>
