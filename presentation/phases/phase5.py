@@ -161,7 +161,7 @@ def phase5():
                 """)
     st.text('')
 
-    df = pd.read_csv('data/clean_data.csv', index_col='tmdb_id')
+    df = pd.read_csv('src/data/clean_data.csv', index_col='tmdb_id')
     df['year'] = df['year'].astype('Int32')
 
     st.dataframe(df)
