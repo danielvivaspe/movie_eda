@@ -11,7 +11,7 @@ def phase4():
             """)
     st.text('')
 
-    df = pd.read_csv('../src/data/all_data.csv', nrows=1000)
+    df = pd.read_csv('src/data/all_data.csv', nrows=1000)
     st.dataframe(df)
 
     st.text('')
