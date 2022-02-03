@@ -15,7 +15,7 @@ def phase3():
         ## TMDB ofrece un listado diario de todos los IDs y otros datos que se encuentran en su plataforma con casi 700 000 registros:
         """)
 
-    df = pd.read_json('../src/data/tmdb-ids.json', lines=True, nrows=1000)
+    df = pd.read_json('src/data/tmdb-ids.json', lines=True, nrows=1000)
     st.dataframe(df)
 
     st.text('')
