@@ -11,7 +11,8 @@ def phase4():
             """)
     st.text('')
 
-    df = pd.read_csv('src/data/all_data.csv', nrows=1000)
+    #df = pd.read_csv('src/data/all_data.csv', nrows=1000)
+    st.markdown('Dataframe no mostrado porque el tamaño supera el límite permitido por Github')
     st.dataframe(df)
 
     st.text('')
