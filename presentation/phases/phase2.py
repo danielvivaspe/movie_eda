@@ -12,28 +12,28 @@ def phase2():
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.image('./img/omdb.png', use_column_width='auto')
+        st.image('presentation/img/omdb.png', use_column_width='auto')
         st.text('')
         st.markdown("""
             ##### <br/><div style="text-align: justify; padding: 0 7px 0 7px;">API oficial de IMDb, probablemente la API más conocida. En su versión básica es gratuita y tiene límite de uso.</div>
             """, unsafe_allow_html=True)
 
     with col2:
-        st.image('./img/imdb.png', use_column_width='auto')
+        st.image('presentation/img/imdb.png', use_column_width='auto')
         st.text('')
         st.markdown("""
             ##### <br/><div style="text-align: justify; padding: 0 7px 0 7px;">Orientada a proyectos más profesionales, hay que rellenar un formulario para su uso</div>
             """, unsafe_allow_html=True)
 
     with col3:
-        st.image('./img/kaggle.png', use_column_width='auto')
+        st.image('presentation/img/kaggle.png', use_column_width='auto')
         st.text('')
         st.markdown("""
             ##### <br/><div style="text-align: justify; padding: 0 7px 0 7px;">Contiene datasets muy completos listos para su análisis. No contiene datos actualizados.</div>
             """, unsafe_allow_html=True)
 
     with col4:
-        st.image('./img/tmdb.png', use_column_width='auto')
+        st.image('presentation/img/tmdb.png', use_column_width='auto')
         st.text('')
         st.markdown("""
                     ##### <br/><div style="text-align: justify; padding: 0 7px 0 7px;">Contiene datos bastante completos con un catálogo de más de 700 000 registros entre películas y otro contenido multimedia. Contiene información acerca del presupuesto y de los ingresos conseguidos.</div>
